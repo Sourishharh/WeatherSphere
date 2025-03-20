@@ -6,9 +6,33 @@
     <title>WeatherSphere</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section class="Firstsection">
+        <div class="cointainer">
+            <div class="weather-input">
+                <div class="input-group">
+                    <input type="text"  id="location" placeholder="Enter the places">
+                    <select  id="converter" class="converter">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+                <i class="fa-solid fa-magnifying-glass-location"></i>
+                </div>
+                <div class="weather-icon">
+                    <h2 class="temp"></h2>
+                    <div class="feelslike"></div>
+                    <div class="description"></div>
+                    <hr>
+                    <div class="date"></div>
+                    <div class="city"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="Script.js"></script>
 </body>

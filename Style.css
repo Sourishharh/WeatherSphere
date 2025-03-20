@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+body {
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    height:100vh
+}
+
+.cointainer{
+    display: flex;
+    align-items: center;
+}
+
+.weather-input{
+
+    width: 25%;
+    position: fixed;
+    inset:0;
+    background: rgb(55, 196, 215);
+    padding: 1rem 2.5rem;
+}
+
+.input-group{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.input-group input{
+    background-color: white;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.input-group .converter{
+    position: absolute;
+    right: 45px;
+    padding: 0.7rem;
+    font-size: 18px;
+    background: transparent;
+    margin-top: 3px;
+    margin-right: 70px;
+    border: none;
+    outline: none;
+}
+
+.input-group .fa-solid{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 400px;
+}
+
+hr{
+    margin-top: 30px;
+}
